@@ -20,6 +20,7 @@ import Location3 from './pages/Location3'
 import Location4 from './pages/Location4'
 import Payments1 from './pages/Payments1'
 import Payments2 from './pages/Payments2'
+import Payments3 from './pages/Payments3'
 
 function App() {
  
@@ -101,6 +102,10 @@ const router = createBrowserRouter([
   {
     path: '/payments2',
     element: <Payments2 />,
+  },
+  {
+    path: '/payments3',
+    element: <Payments3 />,
   },
 ])
   return (
