@@ -21,6 +21,15 @@ import Location4 from './pages/Location4'
 import Payments1 from './pages/Payments1'
 import Payments2 from './pages/Payments2'
 import Payments3 from './pages/Payments3'
+import Payments4 from './pages/Payments4'
+import Payments5 from './pages/Payments5'
+import Payments6 from './pages/Payments6'
+import Payments7 from './pages/Payments7'
+import View1 from './pages/View1'
+import View2 from './pages/View2'
+import View3 from './pages/View3'
+import View4 from './pages/View4'
+import View5 from './pages/View5'
 
 function App() {
  
@@ -106,6 +115,42 @@ const router = createBrowserRouter([
   {
     path: '/payments3',
     element: <Payments3 />,
+  },
+  {
+    path: '/payments4',
+    element: <Payments4 />,
+  },
+  {
+    path: '/payments5',
+    element: <Payments5 />,
+  },
+  {
+    path: '/payments6',
+    element: <Payments6 />,
+  },
+  {
+    path: '/payments7',
+    element: <Payments7 />,
+  },
+  {
+    path: '/view1',
+    element: <View1 />,
+  },
+  {
+    path: '/view2',
+    element: <View2 />,
+  },
+  {
+    path: '/view3',
+    element: <View3 />,
+  },
+  {
+    path: '/view4',
+    element: <View4 />,
+  },
+  {
+    path: '/view5',
+    element: <View5 />,
   },
 ])
   return (
