@@ -30,6 +30,14 @@ import View2 from './pages/View2'
 import View3 from './pages/View3'
 import View4 from './pages/View4'
 import View5 from './pages/View5'
+import Editcard1 from './pages/Editcard1'
+import Editcard2 from './pages/Editcard2'
+import Editcard3 from './pages/Editcard3'
+import Editcard4 from './pages/Editcard4'
+import Editcard5 from './pages/Editcard5'
+import Editcard6 from './pages/Editcard6'
+import Editcard7 from './pages/Editcard7'
+import Editcard8 from './pages/Editcard8' 
 
 function App() {
  
@@ -151,6 +159,38 @@ const router = createBrowserRouter([
   {
     path: '/view5',
     element: <View5 />,
+  },
+  {
+    path: '/editcard1',
+    element: <Editcard1 />,
+  },
+  {
+    path: '/editcard2',
+    element: <Editcard2 />,
+  },
+  {
+    path: '/editcard3',
+    element: <Editcard3 />,
+  },
+  {
+    path: '/editcard4',
+    element: <Editcard4 />,
+  },
+  {
+    path: '/editcard5',
+    element: <Editcard5 />,
+  },
+  {
+    path: '/editcard6',
+    element: <Editcard6 />,
+  },
+  {
+    path: '/editcard7',
+    element: <Editcard7 />,
+  },
+  {
+    path: '/editcard8',
+    element: <Editcard8 />,
   },
 ])
   return (
