@@ -43,7 +43,15 @@ import Editcard10 from './pages/Editcard10'
 import Editcard11 from './pages/Editcard11'
 import Editcard12 from './pages/Editcard12'
 import Editcard13 from './pages/Editcard13'
-import Editcard14 from './pages/Editcard14' 
+import Editcard14 from './pages/Editcard14'
+import Notification1 from './pages/Notification1'
+import Notification2 from './pages/Notification2'
+import Notification3 from './pages/Notification3'
+import Notification4 from './pages/Notification4'
+import Notification5 from './pages/Notification5'
+import Notification6 from './pages/Notification6'
+import Notification7 from './pages/Notification7'
+
 
 function App() {
  
@@ -221,6 +229,34 @@ const router = createBrowserRouter([
   {
     path: '/editcard14',
     element: <Editcard14 />,
+  },
+  {
+    path: '/notification1',
+    element: <Notification1 />,
+  },
+  {
+    path: '/notification2',
+    element: <Notification2 />,
+  },
+  {
+    path: '/notification3',
+    element: <Notification3 />,
+  },
+  {
+    path: '/notification4',
+    element: <Notification4 />,
+  },
+  {
+    path: '/notification5',
+    element: <Notification5 />,
+  },
+  {
+    path: '/notification6',
+    element: <Notification6 />,
+  },
+  {
+    path: '/notification7',
+    element: <Notification7 />,
   },
 ])
   return (
