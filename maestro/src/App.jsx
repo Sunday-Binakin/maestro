@@ -37,7 +37,13 @@ import Editcard4 from './pages/Editcard4'
 import Editcard5 from './pages/Editcard5'
 import Editcard6 from './pages/Editcard6'
 import Editcard7 from './pages/Editcard7'
-import Editcard8 from './pages/Editcard8' 
+import Editcard8 from './pages/Editcard8'
+import Editcard9 from './pages/Editcard9'
+import Editcard10 from './pages/Editcard10'
+import Editcard11 from './pages/Editcard11'
+import Editcard12 from './pages/Editcard12'
+import Editcard13 from './pages/Editcard13'
+import Editcard14 from './pages/Editcard14' 
 
 function App() {
  
@@ -191,6 +197,30 @@ const router = createBrowserRouter([
   {
     path: '/editcard8',
     element: <Editcard8 />,
+  },
+  {
+    path: '/editcard9',
+    element: <Editcard9 />,
+  },
+  {
+    path: '/editcard10',
+    element: <Editcard10 />,
+  },
+  {
+    path: '/editcard11',
+    element: <Editcard11 />,
+  },
+  {
+    path: '/editcard12',
+    element: <Editcard12 />,
+  },
+  {
+    path: '/editcard13',
+    element: <Editcard13 />,
+  },
+  {
+    path: '/editcard14',
+    element: <Editcard14 />,
   },
 ])
   return (
