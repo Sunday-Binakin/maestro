@@ -1,0 +1,26 @@
+import React from 'react';
+
+const Request4 = () => {
+  return (
+    <div className="font-sans bg-gray-300 bg-opacity-50 min-h-screen w-[50%] flex items-center justify-center">
+      <div className="bg-white rounded-lg shadow-lg w-[90%] max-w-md p-6">
+        <h2 className="text-md font-medium text-center mb-4">Cancel Booking</h2>
+        <hr className="mb-2 text-gray-300" />
+        <p className="text-center text-base mb text-gray-500">
+          Are you sure you want to 
+        </p>
+        <p className='text-center text-base mb-6 text-gray-500 '>cancel this booking?</p>
+        <div className="flex flex-col space-y-4">
+          <button className="bg-yellow-500 text-black font-medium py-2 shadow-md hover:bg-yellow-600">
+            Yes, Delete
+          </button>
+          <button className="text-gray-500 font-medium hover:underline">
+            No, go back
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Request4;

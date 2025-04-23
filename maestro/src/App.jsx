@@ -51,6 +51,10 @@ import Notification4 from './pages/Notification4'
 import Notification5 from './pages/Notification5'
 import Notification6 from './pages/Notification6'
 import Notification7 from './pages/Notification7'
+import Request1 from './pages/Request1'
+import Request2 from './pages/Request2'
+import Request3 from './pages/Request3'
+import Request4 from './pages/Request4'
 
 
 function App() {
@@ -257,6 +261,22 @@ const router = createBrowserRouter([
   {
     path: '/notification7',
     element: <Notification7 />,
+  },
+  {
+    path: '/request1',
+    element: <Request1 />,
+  },
+  {
+    path: '/request2',
+    element: <Request2 />,
+  },
+  {
+    path: '/request3',
+    element: <Request3 />,
+  },
+  {
+    path: '/request4',
+    element: <Request4 />,
   },
 ])
   return (
