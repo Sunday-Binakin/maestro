@@ -68,6 +68,21 @@ import Track3 from './pages/Track3'
 import Track4 from './pages/Track4'
 import Trip1 from './pages/Trip1'
 import Trip2 from './pages/Trip2'
+import Onboarding1 from './pages/Onboarding1'
+import Onboarding2 from './pages/Onboarding2'
+import Onboarding3 from './pages/Onboarding3'
+import Onboarding4 from './pages/Onboarding4'
+import Onboarding5 from './pages/Onboarding5'
+import Onboarding6 from './pages/Onboarding6'
+import Onboarding7 from './pages/Onboarding7'
+import Onboarding8 from './pages/Onboarding8'
+import Onboarding9 from './pages/Onboarding9'
+import Onboarding10 from './pages/Onboarding10'
+import Onboarding11 from './pages/Onboarding11'
+import Onboarding12 from './pages/onboarding12'
+
+
+
 
 
 function App() {
@@ -342,6 +357,54 @@ const router = createBrowserRouter([
   {
     path: '/trip2',
     element: <Trip2 />,
+  },
+  {
+    path: '/onboarding1',
+    element: <Onboarding1 />,
+  },
+  {
+    path: '/onboarding2',
+    element: <Onboarding2 />,
+  },
+  {
+    path: '/onboarding3',
+    element: <Onboarding3 />,
+  },
+  {
+    path: '/onboarding4',
+    element: <Onboarding4 />,
+  },
+  {
+    path: '/onboarding5',
+    element: <Onboarding5 />,
+  },
+  {
+    path: '/onboarding6',
+    element: <Onboarding6 />,
+  },
+  {
+    path: '/onboarding7',
+    element: <Onboarding7 />,
+  },
+  {
+    path: '/onboarding8',
+    element: <Onboarding8 />,
+  },
+  {
+    path: '/onboarding9',
+    element: <Onboarding9 />,
+  },
+  {
+    path: '/onboarding10',
+    element: <Onboarding10 />,
+  },
+  {
+    path: '/onboarding11',
+    element: <Onboarding11 />,
+  },
+  {
+    path: '/onboarding12',
+    element: <Onboarding12 />,
   },
 ])
   return (
