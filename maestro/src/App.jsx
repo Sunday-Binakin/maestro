@@ -55,6 +55,13 @@ import Request1 from './pages/Request1'
 import Request2 from './pages/Request2'
 import Request3 from './pages/Request3'
 import Request4 from './pages/Request4'
+import Setting1 from './pages/Setting1'
+import Setting2 from './pages/Setting2'
+import Setting3 from './pages/Setting3'
+import Setting4 from './pages/Setting4'
+import Setting5 from './pages/Setting5'
+import Setting6 from './pages/Setting6'
+import Setting7 from './pages/Setting7'
 
 
 function App() {
@@ -277,6 +284,34 @@ const router = createBrowserRouter([
   {
     path: '/request4',
     element: <Request4 />,
+  },
+  {
+    path: '/setting1',
+    element: <Setting1 />,
+  },
+  {
+    path: '/setting2',
+    element: <Setting2 />,
+  },
+  {
+    path: '/setting3',
+    element: <Setting3 />,
+  },
+  {
+    path: '/setting4',
+    element: <Setting4 />,
+  },
+  {
+    path: '/setting5',
+    element: <Setting5 />,
+  },
+  {
+    path: '/setting6',
+    element: <Setting6 />,
+  },
+  {
+    path: '/setting7',
+    element: <Setting7 />,
   },
 ])
   return (
