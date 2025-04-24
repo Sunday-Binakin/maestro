@@ -62,6 +62,12 @@ import Setting4 from './pages/Setting4'
 import Setting5 from './pages/Setting5'
 import Setting6 from './pages/Setting6'
 import Setting7 from './pages/Setting7'
+import Track1 from './pages/Track1'
+import Track2 from './pages/Track2'
+import Track3 from './pages/Track3'
+import Track4 from './pages/Track4'
+import Trip1 from './pages/Trip1'
+import Trip2 from './pages/Trip2'
 
 
 function App() {
@@ -312,6 +318,30 @@ const router = createBrowserRouter([
   {
     path: '/setting7',
     element: <Setting7 />,
+  },
+  {
+    path: '/track1',
+    element: <Track1 />,
+  },
+  {
+    path: '/track2',
+    element: <Track2 />,
+  },
+  {
+    path: '/track3',
+    element: <Track3 />,
+  },
+  {
+    path: '/track4',
+    element: <Track4 />,
+  },
+  {
+    path: '/trip1',
+    element: <Trip1 />,
+  },
+  {
+    path: '/trip2',
+    element: <Trip2 />,
   },
 ])
   return (
