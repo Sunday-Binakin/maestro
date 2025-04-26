@@ -2,11 +2,9 @@ import React from 'react';
 
 const Setting7 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] p-6">
-      {/* <h1 className="text-lg font-bold mb-6">Settings</h1> */}
-
+    <div className="font-sans bg-gray-100 min-h-screen w-full p-6 flex flex-col items-center">
       {/* Account Section */}
-      <div className="mb-6">
+      <div className="w-full max-w-md mb-6">
         <h2 className="text-sm font-medium text-gray-500 mb-2">Account</h2>
         <div className="bg-white shadow-md p-4 flex items-center">
           <img
@@ -23,7 +21,7 @@ const Setting7 = () => {
       </div>
 
       {/* Favourite Destinations Section */}
-      <div className="mb-6">
+      <div className="w-full max-w-md mb-6">
         <h2 className="text-sm font-medium text-gray-500 mb-2">Favourite Destinations</h2>
         <div className="bg-white shadow-md p-4">
           <button className="text-blue-500 text-sm font-medium">+ Add location</button>
@@ -31,7 +29,7 @@ const Setting7 = () => {
       </div>
 
       {/* Language Selection Section */}
-      <div className="mb-6">
+      <div className="w-full max-w-md mb-6">
         <h2 className="text-sm font-medium text-gray-500 mb-2">Select preferred language</h2>
         <div className="bg-white shadow-md p-4 flex items-center">
           <img
@@ -45,7 +43,9 @@ const Setting7 = () => {
       </div>
 
       {/* Logout Section */}
-      <button className="text-red-500 text-sm font-medium">Logout</button>
+      <div className="w-full max-w-md">
+        <button className="text-red-500 text-sm font-medium w-full text-left">Logout</button>
+      </div>
     </div>
   );
 };

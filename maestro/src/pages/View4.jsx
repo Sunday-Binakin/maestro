@@ -13,12 +13,12 @@ const View4 = () => {
       </div>
 
       {/* Location Input */}
-      <div className="absolute top-16 left-4 right-4 bg-white rounded-lg shadow-md p-4">
+      <div className="absolute top-16 left-4 right-4 bg-white shadow-md p-4">
         <div className="flex items-center mb-2">
           <span className="text-yellow-500 text-lg mr-2">●</span>
           <span className="text-blue-500 text-sm font-semibold">Industrial Area</span>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center ml-6">
           <span className="text-black text-lg mr-2">■</span>
           <span className="text-gray-700 text-sm">Olebu Ablekuma Kingdom hall</span>
         </div>
@@ -26,7 +26,7 @@ const View4 = () => {
 
       {/* Drop-off Marker */}
       <div className="absolute top-1/3 left-1/4 transform -translate-x-1/2">
-        <div className="bg-white rounded-md shadow-md px-4 py-2">
+        <div className="bg-white shadow-md px-4 py-2 ml-56">
           <p className="text-blue-500 font-semibold text-sm">Drop off</p>
           <p className="text-gray-700 text-sm">Olebu Ablekuma, kingdom hall</p>
         </div>

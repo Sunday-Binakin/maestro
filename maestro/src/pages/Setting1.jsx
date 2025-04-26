@@ -2,7 +2,7 @@ import React from 'react';
 
 const Setting1 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] p-4">
+    <div className="font-sans bg-gray-100 min-h-screen w-full p-4">
       <h1 className="bg-black text-white text-lg text-center font-bold mb-4 px-4 py-3">Settings</h1>
 
       {/* Account Section */}

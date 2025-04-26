@@ -2,9 +2,9 @@ import React from 'react';
 
 const Track3 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex flex-col items-center justify-center">
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex flex-col items-center justify-center p-4">
       {/* Modal Container */}
-      <div className="bg-white rounded-lg shadow-lg w-[90%] max-w-md p-6">
+      <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6">
         {/* Title */}
         <h2 className="text-lg font-bold text-center mb-4">Rate Yaw Ofosu</h2>
         <hr className="mb-4" />
@@ -28,12 +28,12 @@ const Track3 = () => {
         {/* Textarea */}
         <textarea
           placeholder="Write something about Yaw Ofosu"
-          className="w-full bg-gray-200 text-sm p-3 rounded-md focus:outline-none mb-4"
+          className="w-full bg-gray-200 text-sm p-3 focus:outline-none mb-4"
           rows="3"
         ></textarea>
 
         {/* Submit Button */}
-        <button className="w-full bg-yellow-500 text-black text-sm font-medium py-3 rounded-md mb-4">
+        <button className="w-full bg-yellow-500 text-black text-sm font-medium py-3 mb-4">
           Submit
         </button>
 

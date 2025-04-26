@@ -2,7 +2,7 @@ import React from 'react';
 
 const View1 = () => {
   return (
-    <div className="h-screen w-[50%] relative">
+    <div className="h-screen w-full relative">
       {/* Map Background */}
       <div className="absolute inset-0">
         <img
@@ -14,14 +14,14 @@ const View1 = () => {
 
       {/* Driver Info Card */}
       <div className="absolute top-16 left-4 right-4 bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-        <p className="text-gray-700 text-sm mb-4">
+        <p className="text-gray-700 text-sm mb-4 text-center">
           Yaw Fosu is 3mins away from pickup location
         </p>
-        <div className="flex justify-between w-full mb-10">
-          <button className="flex items-center justify-between bg-green-500 text-white font-semibold py-2 px-14 rounded-full ">
+        <div className="flex flex-wrap gap-4 justify-center w-full mb-6">
+          <button className="bg-green-500 text-white font-semibold py-2 px-6">
             Call
           </button>
-          <button className="flex items-center justify-center bg-black text-white font-semibold py-2 px-14 rounded-full">
+          <button className="bg-black text-white font-semibold py-2 px-6">
             Send message
           </button>
         </div>
@@ -29,7 +29,7 @@ const View1 = () => {
 
       {/* Driver Marker */}
       <div className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
-        <div className="bg-white rounded-md shadow-md px-4 py-2 flex items-center">
+        <div className="bg-white shadow-md px-4 py-2 flex items-center">
           <img
             src="https://via.placeholder.com/40" // Replace with the driver's image
             alt="Driver"
@@ -50,7 +50,7 @@ const View1 = () => {
             <span className="text-white font-bold">⬤</span>
           </div>
         </div>
-        <div className="absolute top-12 left-1/2 transform -translate-x-1/2 bg-white shadow-md  px-4 py-2">
+        <div className="absolute top-12 left-1/2 transform -translate-x-1/2 bg-white shadow-md px-4 py-2">
           <div className="flex items-center">
             <img
               src="https://via.placeholder.com/24" // Replace with the cargo icon

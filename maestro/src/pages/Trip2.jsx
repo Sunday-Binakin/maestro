@@ -2,25 +2,18 @@ import React from 'react';
 
 const Trip2 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] p-6">
-      {/* Header */}
-      {/* <div className="bg-black text-white p-4 flex items-center justify-between">
-        <button className="text-white text-lg">&lt;</button>
-        <h1 className="text-lg font-bold">Your Trips</h1>
-        <button className="text-yellow-500 text-lg">🔔</button>
-      </div> */}
-
+    <div className="font-sans bg-gray-100 min-h-screen w-full p-6 flex flex-col items-center">
       {/* Filter Section */}
-      <div className="flex items-center justify-end mt-6 mb-4">
+      <div className="w-full max-w-md flex items-center justify-between mt-6 mb-4">
         <p className="text-sm font-medium text-gray-400">Filter</p>
-        <div className="flex items-center border border-gray-300 rounded-md px-4 py-2">
+        <div className="flex items-center border border-gray-300 px-4 py-2">
           <p className="text-sm font-medium">This week</p>
           <span className="text-gray-500 ml-2">&#9662;</span>
         </div>
       </div>
 
       {/* Trip Cards */}
-      <div className="space-y-6">
+      <div className="w-full max-w-md space-y-6">
         {/* Trip Card 1 */}
         <div className="bg-white rounded-lg shadow-md p-4">
           <div className="mb-4">
@@ -46,7 +39,7 @@ const Trip2 = () => {
             </p>
             <p className="text-sm">12th August 2020</p>
           </div>
-          <button className="bg-black text-white text-sm font-medium px-10 py-2 rounded-full">
+          <button className="bg-black text-white text-sm font-medium px-6 py-2 w-full">
             View
           </button>
         </div>
@@ -76,7 +69,7 @@ const Trip2 = () => {
             </p>
             <p className="text-sm">12th August 2020</p>
           </div>
-          <button className="bg-black text-white text-sm font-medium px-10 py-2 rounded-full">
+          <button className="bg-black text-white text-sm font-medium px-6 py-2  w-full">
             View
           </button>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const View5 = () => {
   return (
-    <div className="h-screen w-[50%] relative">
+    <div className="h-screen w-full relative">
       {/* Map Background */}
       <div className="absolute inset-0">
         <img
@@ -13,7 +13,7 @@ const View5 = () => {
       </div>
 
       {/* Location Input */}
-      <div className="absolute top-16 left-4 right-4 bg-white rounded-lg shadow-md p-4">
+      <div className="absolute top-16 left-4 right-4 bg-white shadow-md p-4">
         <div className="flex items-center mb-2">
           <span className="text-yellow-500 text-lg mr-2">●</span>
           <input
@@ -40,7 +40,7 @@ const View5 = () => {
             <span className="text-white font-bold">⬤</span>
           </div>
         </div>
-        <div className="absolute top-12 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-md px-4 py-2">
+        <div className="absolute top-12 left-1/2 transform -translate-x-1/2 bg-white shadow-md px-4 py-2">
           <div className="flex items-center">
             <img
               src="https://via.placeholder.com/24" // Replace with the cargo icon
@@ -56,7 +56,7 @@ const View5 = () => {
       </div>
 
       {/* Request for Pickup Button */}
-      <div className="absolute bottom-8 left-4 right-4">
+      <div className="absolute bottom-20 left-4 right-4">
         <button className="w-full bg-yellow-400 text-black font-semibold py-3 shadow-md">
           Request for Pickup
         </button>

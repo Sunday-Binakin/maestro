@@ -2,9 +2,9 @@ import React from 'react';
 
 const Track4 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex flex-col items-center justify-center">
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex flex-col items-center justify-center p-4">
       {/* Modal Container */}
-      <div className="bg-white rounded-lg shadow-lg w-[90%] max-w-md p-6">
+      <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6">
         {/* Title */}
         <h2 className="text-lg font-bold text-center mb-4">Rate Yaw Fosu</h2>
         <hr className="mb-4" />
@@ -26,10 +26,10 @@ const Track4 = () => {
         </div>
 
         {/* Write a Review */}
-        <div className='flex justify-center mb-4'>
-        <button className="text-blue-500 text-sm font-medium border border-blue-500 rounded-full px-8 py-2 mb-4">
-          Write a review
-        </button>
+        <div className="flex justify-center mb-4">
+          <button className="text-blue-500 text-sm font-medium border border-blue-500 rounded-full px-8 py-2">
+            Write a review
+          </button>
         </div>
 
         {/* Submit Button */}

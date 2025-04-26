@@ -2,27 +2,22 @@ import React from 'react';
 
 const Track1 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex flex-col">
-      {/* Header */}
-      {/* <div className="bg-black text-white p-4 flex items-center justify-between">
-        <button className="text-white text-lg">&lt;</button>
-        <h1 className="text-lg font-bold">Track Cargo</h1>
-        <button className="text-yellow-500 text-lg">🔔</button>
-      </div> */}
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex flex-col">
       {/* ETA and Actions */}
-      <div className="bg-white p-2 shadow-md  ">
-        <p className="text-gray-700 text-sm mb-20">ETA to dropoff 1hr, 45mins</p>
-        <div className="flex space-x-4">
-          <button className="bg-green-500 text-white text-sm font-medium px-8 py-2 rounded-full mb-8">
+      <div className="bg-white p-4 shadow-md">
+        <p className="text-gray-700 text-sm mb-4">ETA to dropoff 1hr, 45mins</p>
+        <div className="flex flex-wrap gap-4">
+          <button className="bg-green-500 text-white text-sm font-medium px-6 py-2">
             Call
           </button>
-          <button className="bg-black text-white text-sm font-medium px-8 py-2 rounded-full mb-8">
+          <button className="bg-black text-white text-sm font-medium px-6 py-2">
             Send message
           </button>
         </div>
       </div>
+
       {/* Map Section */}
-      <div className="relative flex-1">
+      <div className="relative flex-1 mt-4">
         <img
           src="c:/Users/Bella/OneDrive/Desktop/Maestro/track cargo/iOS- Maestro- Track cargo@3x.png"
           alt="Map"
@@ -30,13 +25,13 @@ const Track1 = () => {
         />
 
         {/* Dropoff Info */}
-        <div className="absolute top-10 left-10 bg-white shadow-md rounded-md p-2">
+        <div className="absolute top-4 left-4 bg-white shadow-md p-2">
           <p className="text-blue-500 text-sm font-medium">Drop off</p>
           <p className="text-gray-700 text-sm">Olebu Ablekuma, kingd...</p>
         </div>
 
         {/* Driver Info */}
-        <div className="absolute top-32 left-20 bg-white shadow-md rounded-md p-2 flex items-center">
+        <div className="absolute top-20 left-10 bg-white shadow-md p-2 flex items-center">
           <img
             src="https://via.placeholder.com/40"
             alt="Driver"
@@ -49,7 +44,7 @@ const Track1 = () => {
         </div>
 
         {/* Pickup Info */}
-        <div className="absolute bottom-20 left-10 bg-white shadow-md rounded-md p-2 flex items-center">
+        <div className="absolute bottom-10 left-4 bg-white shadow-md  p-2 flex items-center">
           <img
             src="https://via.placeholder.com/20"
             alt="Pickup Icon"
@@ -62,10 +57,8 @@ const Track1 = () => {
         </div>
       </div>
 
-      
-
       {/* Request for Pickup Button */}
-      <button className="bg-yellow-500 text-black text-lg font-medium py-4">
+      <button className="bg-yellow-500 text-black text-lg font-medium py-4 w-full mt-4">
         Request for Pickup
       </button>
     </div>

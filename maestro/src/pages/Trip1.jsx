@@ -2,16 +2,9 @@ import React from 'react';
 
 const Trip1 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] p-6">
-      {/* Header */}
-      {/* <div className="bg-black text-white p-4 flex items-center justify-between">
-        <button className="text-white text-lg">&lt;</button>
-        <h1 className="text-lg font-bold">Trip Details</h1>
-        <button className="text-yellow-500 text-lg">🔔</button>
-      </div> */}
-
+    <div className="font-sans bg-gray-100 min-h-screen w-full p-6 flex flex-col items-center">
       {/* Trip Details Card */}
-      <div className="bg-white rounded-lg shadow-md p-4 mt-6">
+      <div className="bg-white rounded-lg shadow-md p-4 w-full max-w-md mt-6">
         {/* Map Section */}
         <div className="mb-4">
           <img

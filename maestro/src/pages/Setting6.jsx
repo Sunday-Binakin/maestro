@@ -2,22 +2,21 @@ import React from 'react';
 
 const Setting6 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] p-6 flex flex-col">
-      {/* <h1 className="text-lg font-bold mb-6">Settings</h1> */}
+    <div className="font-sans bg-gray-100 min-h-screen w-full p-6 flex flex-col items-center">
       <h2 className="text-sm font-medium text-gray-500 mb-4">Edit Account Details</h2>
 
       {/* Profile Section */}
-      <div className="flex flex-col items mb-6">
+      <div className="flex flex-col items-center mb-6">
         <img
           src="c:/Users/Bella/OneDrive/Desktop/Maestro/settings/iOS- Maestro- Settings- Upload photot@3x.png"
           alt="Profile"
           className="w-20 h-20 rounded-full border-2 border-yellow-500 object-cover mb-2"
         />
-        <button className="text-blue-500 text-sm font-medium mt-2 mr-130">Change</button>
+        <button className="text-blue-500 text-sm font-medium mt-2">Change</button>
       </div>
 
       {/* Input Fields */}
-      <div className="space-y-4 mb-6">
+      <div className="w-full max-w-md space-y-4 mb-6">
         <input
           type="text"
           value="Edward Yeboah"
@@ -42,20 +41,20 @@ const Setting6 = () => {
       </div>
 
       {/* Modal Section */}
-        <div className="bg-white">
-        <div className="mb-4">
-            <h3 className="text-base font-medium">Select a Photo</h3>
-         <button className="text-gray-500 text-lg font-medium">×</button>
+      <div className="bg-white w-full max-w-md p-4 shadow-md">
+        <div className="flex justify-between items-center mb-4">
+          <h3 className="text-base font-medium">Select a Photo</h3>
+          <button className="text-gray-500 text-lg font-medium">×</button>
         </div>
         <div className="flex flex-col items-center space-y-4">
-            <button className="w-full bg-black text-white text-base font-medium px-2 py-2">
+          <button className="w-full bg-black text-white text-base font-medium px-4 py-2">
             Choose from gallery
-            </button>
-            <button className="w-full bg-black text-white text-base font-medium px-2 py-2">
+          </button>
+          <button className="w-full bg-black text-white text-base font-medium px-4 py-2">
             Take photo
-            </button>
-            </div>
+          </button>
         </div>
+      </div>
     </div>
   );
 };

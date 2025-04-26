@@ -2,9 +2,9 @@ import React from 'react';
 
 const View3 = () => {
   return (
-    <div className="h-screen w-[50%] bg-gray-800 bg-opacity-50 flex items-center justify-center">
+    <div className="h-screen w-full bg-gray-800 bg-opacity-50 flex items-center justify-center p-4">
       {/* Modal */}
-      <div className="bg-white w-[90%] max-w-md rounded-lg shadow-lg p-6 text-center">
+      <div className="bg-white w-full max-w-md shadow-lg p-6 text-center">
         {/* Header */}
         <h2 className="text-black text-lg font-semibold mb-4">Truck driver</h2>
         <hr className="border-gray-300 mb-4" />
@@ -38,7 +38,7 @@ const View3 = () => {
 
         {/* Confirm and Decline Buttons */}
         <div className="flex flex-col gap-4">
-          <button className="w-full bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md">
+          <button className="w-full bg-yellow-400 text-black font-semibold py-3 shadow-md">
             Confirm Pickup
           </button>
           <button className="w-full text-red-500 font-semibold py-3">

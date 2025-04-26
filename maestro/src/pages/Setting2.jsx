@@ -2,8 +2,7 @@ import React from 'react';
 
 const Setting2 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] p-6 flex flex-col items-center">
-      {/* <h1 className="text-lg font-bold mb-6">Settings</h1> */}
+    <div className="font-sans bg-gray-100 min-h-screen w-full p-6 flex flex-col items-center">
       <h2 className="text-sm font-medium text-gray-500 mb-4">Edit Account Details</h2>
 
       {/* Profile Image Section */}
@@ -51,7 +50,7 @@ const Setting2 = () => {
       </div>
 
       {/* Save Button */}
-      <button className="bg-black text-white text-base font-medium py-2 px-50 mt-6">
+      <button className="bg-black text-white text-base font-medium py-2 px-42 mt-6 ">
         Save
       </button>
     </div>
