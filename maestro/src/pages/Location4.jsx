@@ -2,7 +2,7 @@ import React from 'react';
 
 const Location4 = () => {
   return (
-    <div className="h-screen w-[50%] relative">
+    <div className="h-screen w-full relative">
       {/* Map Background */}
       <div className="absolute inset-0">
         <img
@@ -13,7 +13,7 @@ const Location4 = () => {
       </div>
 
       {/* Location Input */}
-      <div className="absolute top-16 left-4 right-4 bg-white rounded-lg shadow-md p-4">
+      <div className="absolute top-16 left-4 right-4 bg-white rounded-lg shadow-md p-4 max-w-lg mx-auto">
         <div className="flex items-center mb-2">
           <span className="text-yellow-500 text-lg mr-2">●</span>
           <input
@@ -26,14 +26,14 @@ const Location4 = () => {
           <span className="text-black text-lg mr-2">■</span>
           <input
             type="text"
-            placeholder=""
+            placeholder="Enter drop-off location"
             className="w-full bg-gray-100 border border-gray-300 rounded-md px-4 py-2 text-gray-700"
           />
         </div>
       </div>
 
       {/* Dropdown List */}
-      <div className="absolute top-48 left-4 right-4 bg-white rounded-lg shadow-md p-4">
+      <div className="absolute top-48 left-4 right-4 bg-white rounded-lg shadow-md p-4 max-w-lg mx-auto">
         <div className="flex items-center mb-4">
           <span className="text-black text-lg mr-2">■</span>
           <div>

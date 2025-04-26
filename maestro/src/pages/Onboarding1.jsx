@@ -2,7 +2,7 @@ import React from 'react';
 
 const Onboarding1 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex flex-col items-center justify-center px-6">
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex flex-col items-center justify-center px-6">
       {/* Logo */}
       {/* <div className="mb-6">
         <img
@@ -13,10 +13,12 @@ const Onboarding1 = () => {
       </div> */}
 
       {/* Instruction Text */}
-      <p className="text-center text-sm text-gray-600 ">
-        A Verification code has been sent to your</p>
-      <p className="text-center text-sm text-gray-600 mb-6 ">
-        phone number. Enter code below.</p>
+      <p className="text-center text-sm text-gray-600">
+        A Verification code has been sent to your
+      </p>
+      <p className="text-center text-sm text-gray-600 mb-6">
+        phone number. Enter code below.
+      </p>
 
       {/* Code Input */}
       <div className="flex justify-center space-x-4 mb-4">

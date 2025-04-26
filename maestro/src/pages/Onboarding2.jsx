@@ -2,7 +2,7 @@ import React from 'react';
 
 const Onboarding2 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex flex-col items-center justify-between px-6 py-8">
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex flex-col items-center justify-between px-6 py-8">
       {/* Logo */}
       {/* <div className="mt-6">
         <img
@@ -17,14 +17,15 @@ const Onboarding2 = () => {
         <img
           src="https://via.placeholder.com/300x200"
           alt="Cargo Truck"
-          className="w-64 h-auto mb-6"
+          className="w-64 h-auto mb-6 max-w-full"
         />
-        <h2 className="text-lg font-bold text-center mt-40">Cargo pickup</h2>
-        <p className="text-sm text-gray-600 text-center mt-8">
+        <h2 className="text-lg font-bold text-center mt-10 md:mt-20">Cargo pickup</h2>
+        <p className="text-sm text-gray-600 text-center mt-4">
           Enter pick up and dropoff location and
         </p>
         <p className="text-sm text-gray-600 text-center">
-            request cargo pickup</p>
+          request cargo pickup
+        </p>
       </div>
 
       {/* Pagination Dots */}

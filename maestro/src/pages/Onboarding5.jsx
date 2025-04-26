@@ -2,7 +2,7 @@ import React from 'react';
 
 const Onboarding5 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex items-center justify-center">
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex items-center justify-center">
       {/* Logo */}
       <img
         src="https://via.placeholder.com/150x50"

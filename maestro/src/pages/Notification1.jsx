@@ -2,7 +2,7 @@ import React from 'react';
 
 const Notification1 = () => {
   return (
-    <div className="bg-gray-100 h-screen w-[50%] flex flex-col">
+    <div className="bg-gray-100 h-screen w-full flex flex-col">
       {/* Header */}
       {/* <div className="bg-black text-white flex items-center justify-between px-4 py-3">
         <button className="text-lg">☰</button>
@@ -21,7 +21,7 @@ const Notification1 = () => {
       </div> */}
 
       {/* Notifications Section */}
-      <div className="bg-white mx-4 mt-4 p-4 rounded-lg shadow-md">
+      <div className="bg-white mt-4 p-4 rounded-lg shadow-md max-w-lg mx-4">
         <div className="flex justify-between items-center mb-2">
           <h2 className="text-lg font-semibold">Notifications</h2>
           <button className="text-blue-500 text-sm">Mark all as read</button>
@@ -41,11 +41,11 @@ const Notification1 = () => {
       </div>
 
       {/* Map Section */}
-      <div className="relative flex-1 mt-4">
+      <div className="relative flex-1 mt-4 max-w-lg mx-4">
         <img
           src="/path-to-map-image.png"
           alt="Map"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-lg"
         />
         <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 bg-white p-2 rounded-lg shadow-md flex items-center">
           <img

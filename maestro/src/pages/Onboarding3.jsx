@@ -2,7 +2,7 @@ import React from 'react';
 
 const Onboarding3 = () => {
   return (
-    <div className="font-sans bg-gray-100 min-h-screen w-[50%] flex flex-col items-center justify-center px-6">
+    <div className="font-sans bg-gray-100 min-h-screen w-full flex flex-col items-center justify-center px-6">
       {/* Logo */}
       <div className="mb-6">
         <img
