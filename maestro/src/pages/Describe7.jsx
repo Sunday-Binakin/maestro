@@ -4,7 +4,7 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 const Describe5 = () => {
   return (
-    <div className="h-screen w-[50%] bg-gray-100 flex items-center justify-center">
+    <div className="h-auto w-full max-w-3xl bg-gray-100 flex items-center justify-center">
       <div className="bg-white w-[90%] max-w-md rounded-lg shadow-lg p-6">
         {/* Header */}
         <div className="text-center mb-6">

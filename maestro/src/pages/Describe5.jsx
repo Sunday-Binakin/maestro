@@ -4,8 +4,8 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 const Describe5 = () => {
   return (
-    <div className="h-screen w-[50%] bg-gray-100 flex items-center justify-center">
-      <div className="bg-white w-[90%] max-w-md rounded-lg shadow-lg p-6">
+    <div className="h-auto w-full bg-gray-100 flex items-center justify-center px-4 py-8">
+      <div className="bg-white w-full max-w-3xl rounded-lg shadow-lg p-6">
         {/* Header */}
         <div className="text-center mb-6">
           <h2 className="text-black text-lg font-semibold">Request Summary</h2>
@@ -24,7 +24,7 @@ const Describe5 = () => {
         </div>
 
         {/* Locations */}
-        <div className="mb-6 bg-gray-300">
+        <div className="mb-6 bg-gray-100 p-4">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-yellow-500">●</span>
             <span className="text-gray-700 text-sm">From: Industrial Area</span>
@@ -46,20 +46,27 @@ const Describe5 = () => {
 
         {/* Details */}
         <div className="text-sm text-gray-700 mb-6">
+          <div className='mb-4'>
+          
           <p>
             <span className="font-semibold">Pickup date:</span> 24th Sep 2020 / 13:30 GMT
           </p>
+          </div>
+          <div className='mb-4'>
           <p>
             <span className="font-semibold">Drop off date:</span> 25th Sep 2020 / 16:00 GMT
           </p>
+          </div>
+          <div className=''>
           <p>
             <span className="font-semibold">Cargo Type:</span> Iron rods, Non-hazardous
           </p>
+          </div>
         </div>
 
         {/* Button */}
         <div className="text-center">
-          <button className="w-full bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md">
+          <button className="w-full bg-yellow-400 text-black font-semibold py-3 shadow-md">
             Send Pickup Request
           </button>
         </div>

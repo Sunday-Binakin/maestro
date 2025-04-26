@@ -3,15 +3,15 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 const Describe8 = () => {
   return (
-    <div className="h-screen w-[50%] bg-gray-800 bg-opacity-50 flex items-center justify-center">
-      <div className="bg-white w-[90%] max-w-md rounded-lg shadow-lg p-6 text-center">
+    <div className="h-screen w-full bg-gray-800 bg-opacity-50 flex items-center justify-center px-4">
+      <div className="bg-white w-full max-w-md rounded-lg shadow-lg p-6 text-center">
         {/* Header */}
         <h2 className="text-black text-lg font-semibold mb-4">Awesome!</h2>
         <hr className="border-gray-300 mb-4" />
 
         {/* Message */}
         <div className="text-gray-700 text-sm mb-6">
-          <p>Request sent successfully.We will</p>
+          <p>Request sent successfully. We will</p>
           <p>notify you when a rider accepts</p>
           <p>with a quote.</p>
         </div>
@@ -22,7 +22,7 @@ const Describe8 = () => {
         </div>
 
         {/* Button */}
-        <button className="w-full bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md">
+        <button className="w-full bg-yellow-400 text-black font-semibold py-3 shadow-md">
           View on map
         </button>
       </div>

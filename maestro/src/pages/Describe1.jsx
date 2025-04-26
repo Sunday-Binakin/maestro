@@ -2,7 +2,7 @@ import React from 'react';
 
 const Describe1 = () => {
   return (
-    <div className="h-[50%] w-[50%] bg-white p-6">
+    <div className="h-auto w-full max-w-3xl bg-white p-6 mx-auto shadow-md">
       {/* Step Header */}
       <div className="text-gray-500 text-sm mb-4">Step 1 of 2</div>
       <div className="text-black text-lg font-semibold mb-6">Describe your cargo</div>
@@ -25,40 +25,44 @@ const Describe1 = () => {
 
       {/* Hazardous Substance Type Dropdown */}
       <div className="mb-6">
-        <label className="block text-gray-500 text-sm mb-2"></label>
+        <label className="block text-gray-500 text-sm mb-2">Hazardous Substance Type</label>
         <select className="w-full bg-gray-100 border border-gray-300 px-4 py-2 text-gray-700">
           <option>Select hazardous substance type</option>
         </select>
       </div>
 
       {/* Weight and Packaging */}
-      {/* <div className="flex items-center justify-between mb-6"> */}
-        <div className="w-[48%]">
-          <label className="block text-gray-500 text-sm mb-2"></label>
+      <div className="flex flex-col md:flex-row md:justify-between md:space-x-4 mb-6">
+        {/* Weight */}
+        <div className="w-full md:w-1/2 mb-4 md:mb-0">
+          <label className="block text-gray-500 text-sm mb-2">Weight</label>
           <div className="flex items-center gap-2 bg-gray-100 border border-gray-300">
             <input
               type="text"
               placeholder="Weight"
-              className="w-full bg-transparent px-4 py-2 text-gray-700"
+              className="w-full bg-transparent px-4 py-2 text-gray-700 rounded-l-md"
             />
             <select className="bg-transparent border-l border-gray-300 px-2 py-2 text-gray-700">
               <option>Kg</option>
             </select>
           </div>
         </div>
-        <div className="w-[48%]">
-  <label className="block text-gray-500 text-sm mb-2"></label>
-  <div className="flex items-center bg-gray-100 border border-gray-300">
-    <input
-      type="text"
-      placeholder="Packaging"
-      className="w-full bg-transparent px-4 py-2 text-gray-700"
-    />
-    <select className="bg-transparent border-l border-gray-300 px-2 py-2 text-gray-700">
-      <option>Qty</option>
-    </select>
-  </div>
-</div>
+
+        {/* Packaging */}
+        <div className="w-full md:w-1/2">
+          <label className="block text-gray-500 text-sm mb-2">Packaging</label>
+          <div className="flex items-center bg-gray-100 border border-gray-300">
+            <input
+              type="text"
+              placeholder="Packaging"
+              className="w-full bg-transparent px-4 py-2 text-gray-700 rounded-l-md"
+            />
+            <select className="bg-transparent border-l border-gray-300 px-2 py-2 text-gray-700">
+              <option>Qty</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
       {/* Upload Cargo Documents */}
       <div className="mb-6">

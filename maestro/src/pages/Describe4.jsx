@@ -3,7 +3,7 @@ import { FaClock, FaCalendarAlt } from 'react-icons/fa';
 
 const Describe4 = () => {
   return (
-    <div className="h-screen w-[50%] p-6">
+    <div className="h-auto w-full max-w-3xl p-6">
       {/* Step Header */}
       <div className="text-gray-500 text-sm mb-4">Step 2 of 2</div>
       <div className="text-black text-lg font-semibold mb-6">Set pickup date and time</div>

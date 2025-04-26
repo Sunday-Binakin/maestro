@@ -3,7 +3,7 @@ import { FaCamera } from 'react-icons/fa';
 
 const Describe3 = () => {
   return (
-    <div className="h-screen w-[50%] bg-white p-6">
+    <div className="h-auto w-full max-w-3xl bg-white p-6">
       {/* Step Header */}
       <div className="text-gray-500 text-sm mb-4">Step 1 of 2</div>
       <div className="text-black text-lg font-semibold mb-6">Describe your cargo</div>
