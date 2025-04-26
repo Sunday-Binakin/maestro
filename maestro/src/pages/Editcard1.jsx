@@ -2,28 +2,28 @@ import React from 'react';
 
 const Editcard1 = () => {
   return (
-    <div className="h-screen w-[50%] bg-white">
+    <div className="h-screen w-full bg-white flex flex-col">
       {/* Header */}
       <div className="text-center py-4 border-b border-gray-300 bg-black text-white">
         <h2 className="text-lg font-semibold">Payment</h2>
       </div>
 
       {/* Tabs */}
-      <div className="flex justify-center mt-4">
-        <button className="px-30 py-2 bg-black text-white font-semibold">
+      <div className="flex justify-center mt-4 space-x-4">
+        <button className="px-8 py-2 bg-black text-white font-semibold">
           Edit details
         </button>
-        <button className="px-30 py-2 border border-gray-300 font-semibold">
+        <button className="px-8 py-2 border border-gray-300 font-semibold">
           History
         </button>
       </div>
 
       {/* Saved Accounts */}
-      <div className="px-4 mt-6">
+      <div className="px-4 mt-6 flex-grow">
         <p className="text-gray-700 text-sm mb-4">Your saved mobile money accounts</p>
 
         {/* Add New Account */}
-        <button className="w-full border border-blue-500 text-blue-500 py-3 mb-4 bg-blue-200">
+        <button className="w-full border border-blue-500 text-blue-500 py-3 mb-4 bg-blue-100">
           + Add new account
         </button>
 
@@ -56,8 +56,8 @@ const Editcard1 = () => {
       </div>
 
       {/* Save Button */}
-      <div className="absolute bottom-8 left-4 right-4">
-        <button className="w-[50%] bg-black text-white font-semibold py-3 ">
+      <div className="px-4 py-4">
+        <button className="w-full bg-black text-white font-semibold py-3">
           Save
         </button>
       </div>

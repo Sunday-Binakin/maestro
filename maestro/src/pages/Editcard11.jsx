@@ -50,18 +50,18 @@ const Editcard11 = () => {
   ];
 
   return (
-    <div className="h-screen w-[50%] bg-white">
+    <div className="h-screen w-full bg-white flex flex-col">
       {/* Header */}
       <div className="text-center py-4 border-b border-gray-300 bg-black text-white">
         <h2 className="text-lg font-semibold">Payment</h2>
       </div>
 
       {/* Tabs */}
-      <div className="flex justify-center mt-4">
-        <button className="px-30 py-2 border border-gray-300 font-semibold rounded-l-md">
+      <div className="flex justify-center mt-4 space-x-4 px-4">
+        <button className="px-14 py-2 border border-gray-300 font-semibold">
           Edit details
         </button>
-        <button className="px-30 py-2 bg-black text-white font-semibold rounded-r-md">
+        <button className="px-14 py-2 bg-black text-white font-semibold">
           History
         </button>
       </div>
@@ -71,7 +71,7 @@ const Editcard11 = () => {
         <input
           type="text"
           placeholder="Search history"
-          className="w-full p-3 border border-gray-300  mb-4"
+          className="w-full p-3 border border-gray-300 mb-4"
         />
       </div>
 
@@ -80,9 +80,9 @@ const Editcard11 = () => {
         {transactions.map((transaction) => (
           <div
             key={transaction.id}
-            className="flex items-center justify-between bg-gray-100 p-4 mb-4"
+            className="flex flex-col md:flex-row md:items-center md:justify-between bg-gray-100 p-4 mb-4"
           >
-            <div className="flex items-center">
+            <div className="flex items-center mb-4 md:mb-0">
               <img
                 src={transaction.logo}
                 alt={transaction.name}
@@ -93,7 +93,7 @@ const Editcard11 = () => {
                 <p className="text-gray-500 text-sm">{transaction.method}</p>
               </div>
             </div>
-            <div className="text-right">
+            <div className="text-left md:text-right">
               <p className="text-gray-800 font-semibold">{transaction.amount}</p>
               <p className={`${transaction.statusColor} text-sm`}>{transaction.status}</p>
             </div>

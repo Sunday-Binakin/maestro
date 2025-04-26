@@ -2,18 +2,18 @@ import React from 'react';
 
 const Editcard2 = () => {
   return (
-    <div className="h-screen w-[50%] bg-white">
+    <div className="h-screen w-full bg-white flex flex-col">
       {/* Header */}
-      <div className="text-center py-4 border border-gray-300 bg-black text-white">
+      <div className="w-full text-center py-4 border border-gray-300 bg-black text-white">
         <h2 className="text-lg font-semibold">Payment</h2>
       </div>
 
       {/* Tabs */}
       <div className="flex justify-center mt-4 ">
-        <button className="px-30 py-2 bg-black text-white font-semibold rounded-sm">
+        <button className="px-30 py-2 bg-black text-white font-semibold">
           Edit details
         </button>
-        <button className="px-30 py-2 border border-gray-300 font-semibold rounded-sm">
+        <button className="px-30 py-2 border border-gray-300 font-semibold">
           History
         </button>
       </div>
@@ -29,8 +29,8 @@ const Editcard2 = () => {
       </div>
 
       {/* Save Button */}
-      <div className="absolute bottom-8 left-4 right-4">
-        <button className="w-[50%] bg-black text-white font-semibold py-3">
+      <div className="absolute bottom-8  left-0 right-0 flex justify-center ">
+        <button className="w-full bg-black text-white items-center font-semibold py-3">
           Save
         </button>
       </div>
