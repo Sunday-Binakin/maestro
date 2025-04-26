@@ -2,7 +2,7 @@ import React from 'react';
 
 const Payments7 = () => {
   return (
-    <div className="h-screen w-[50%] bg-white">
+    <div className="h-screen w-full bg-white">
       {/* Title */}
       <div className="text-center mt-6">
         <h2 className="text-lg font-semibold text-black">Pay for cargo pickup</h2>
@@ -26,7 +26,7 @@ const Payments7 = () => {
 
       {/* Pay Button */}
       <div className="absolute bottom-8 left-4 right-4">
-        <button className="w-[50%] bg-yellow-400 text-black font-semibold py-3 shadow-md">
+        <button className="w-full bg-yellow-400 text-black font-semibold py-3 shadow-md">
           Pay GHS 4,500
         </button>
       </div>

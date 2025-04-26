@@ -4,7 +4,7 @@ import { FaCcMastercard } from 'react-icons/fa';
 
 const Payments1 = () => {
   return (
-    <div className="h-screen w-[50%] bg-white">
+    <div className="h-screen w-full bg-white flex flex-col">
       {/* Header */}
       {/* <div className="flex items-center justify-between bg-black text-white px-4 py-3">
         <button>
@@ -23,9 +23,9 @@ const Payments1 = () => {
       </div>
 
       {/* Select Account */}
-      <div className="mt-8 px-4">
+      <div className="mt-8 px-4 w-full max-w-md mx-auto">
         <label className="block text-gray-700 text-sm mb-2">Select account to pay with</label>
-        <div className="flex items-center justify-between bg-gray-100 border border-gray-300 px-4 py-3">
+        <div className="flex items-center justify-between bg-gray-100 border border-gray-300 px-4 py-3 rounded-md">
           <div className="flex items-center">
             <FaCcMastercard className="text-black text-2xl mr-3" />
             <span className="text-gray-700 font-semibold">Ecobank - **** 2354</span>
@@ -35,8 +35,8 @@ const Payments1 = () => {
       </div>
 
       {/* Pay Button */}
-      <div className="absolute bottom-8 left-4 right-4">
-        <button className="w-[50%] bg-yellow-400 text-black font-semibold py-3 shadow-md">
+      <div className="mt-auto px-4 w-full max-w-md mx-auto">
+        <button className="w-full bg-yellow-400 text-black font-semibold py-3 shadow-md rounded-md">
           Pay GHS 4,500
         </button>
       </div>

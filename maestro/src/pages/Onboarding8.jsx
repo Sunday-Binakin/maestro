@@ -2,7 +2,7 @@ import React from 'react';
 
 const Onboarding8 = () => {
   return (
-    <div className="font-sans bg-white min-h-screen w-[50%] flex flex-col items-center px-6 py-8">
+    <div className="font-sans bg-white min-h-screen w-full flex flex-col items-center px-6 py-8">
       {/* Logo */}
       <div className="mb-6">
         <img
@@ -16,11 +16,11 @@ const Onboarding8 = () => {
       <h2 className="text-lg font-bold text-center mb-6">Create your Account</h2>
 
       {/* Social Sign-Up Buttons */}
-      <div className="flex space-x-4 mb-6">
-        <button className="flex items-center justify-center bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-md w-32">
+      <div className="flex flex-col sm:flex-row sm:space-x-4 mb-6 w-full max-w-md">
+        <button className="flex items-center justify-center bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-md w-full sm:w-32 mb-4 sm:mb-0">
           <span className="mr-2">F</span> Sign up
         </button>
-        <button className="flex items-center justify-center bg-red-600 text-white text-sm font-medium px-4 py-2 rounded-md w-32">
+        <button className="flex items-center justify-center bg-red-600 text-white text-sm font-medium px-4 py-2 rounded-md w-full sm:w-32">
           <span className="mr-2">G+</span> Sign up
         </button>
       </div>
@@ -34,40 +34,34 @@ const Onboarding8 = () => {
 
       {/* Input Fields */}
       <div className="w-full max-w-md space-y-4 mb-6">
-        <div className='bg-gray-100'>
-        <input
-          type="text"
-          placeholder="Edward Yeboah"
-          className="w-full border border-gray-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        <div className="bg-gray-100">
+          <input
+            type="text"
+            placeholder="Edward Yeboah"
+            className="w-full border border-gray-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
         </div>
-        <div className='bg-gray-100'>
-        <input
-          type="text"
-          placeholder="0202024965"
-          className="w-full border border-gray-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        <div className="bg-gray-100">
+          <input
+            type="text"
+            placeholder="0202024965"
+            className="w-full border border-gray-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
         </div>
-        
-        <div className="relative">
-        <div className='bg-gray-100'>
-        <input
+        <div className="relative bg-gray-100">
+          <input
             type="password"
             placeholder="********************"
             className="w-full border border-gray-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-        </div>
           <button className="absolute inset-y-0 right-4 text-gray-500">👁</button>
         </div>
-        <div className="relative">
-            <div className='bg-gray-100'>
-            <input
+        <div className="relative bg-gray-100">
+          <input
             type="password"
             placeholder="********************"
             className="w-full border border-gray-300 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-            </div>
-          
           <button className="absolute inset-y-0 right-4 text-gray-500">👁</button>
         </div>
       </div>

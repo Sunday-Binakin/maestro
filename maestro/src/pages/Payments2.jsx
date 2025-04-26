@@ -2,16 +2,16 @@ import React from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 import { FaCcMastercard } from 'react-icons/fa';
 
-const Payments1 = () => {
+const Payments2 = () => {
   return (
-    <div className="h-screen w-[50%] bg-white">
+    <div className="h-screen w-full bg-white flex flex-col">
       {/* Title */}
       <div className="text-center mt-6">
         <h2 className="text-lg font-semibold text-black">Pay for cargo pickup</h2>
       </div>
 
       {/* Select Account */}
-      <div className="mt-8 px-4">
+      <div className="mt-8 px-4 w-full max-w-md mx-auto">
         <label className="block text-gray-700 text-sm mb-2">Select account to pay with</label>
 
         {/* First Payment Option */}
@@ -36,14 +36,14 @@ const Payments1 = () => {
         </div>
 
         {/* Add New Payment Method */}
-        <div className="text-blue-500 text-sm">
+        <div className="text-blue-500 text-sm text-center">
           <a href="#">+ Add new payment method</a>
         </div>
       </div>
 
       {/* Pay Button */}
-      <div className="absolute bottom-8 left-4 right-4">
-        <button className="w-[50%] bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md">
+      <div className="mt-auto px-4 w-full max-w-md mx-auto">
+        <button className="w-full bg-yellow-400 text-black font-semibold py-3 rounded-md shadow-md">
           Pay GHS 4,500
         </button>
       </div>
@@ -51,4 +51,4 @@ const Payments1 = () => {
   );
 };
 
-export default Payments1;
+export default Payments2;

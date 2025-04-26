@@ -3,9 +3,9 @@ import { FaExclamationTriangle } from 'react-icons/fa';
 
 const Payments5 = () => {
   return (
-    <div className="h-screen w-[50%] bg-gray-800 bg-opacity-50 flex items-center justify-center">
+    <div className="h-screen w-full bg-gray-800 bg-opacity-50 flex items-center justify-center">
       {/* Modal */}
-      <div className="bg-white w-[90%] max-w-md rounded-lg shadow-lg p-6 text-center">
+      <div className="bg-white w-full max-w-md rounded-lg shadow-lg p-6 mx-4 text-center">
         {/* Header */}
         <h2 className="text-black text-lg font-semibold mb-4">Sorry!</h2>
         <hr className="border-gray-300 mb-4" />
