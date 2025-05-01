@@ -9,7 +9,7 @@ import { IoCaretUpCircleOutline } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
-    <div className="bg-black text-white h-screen w-full md:w-[50%] p-4">
+    <div className="bg-black text-white h-screen w-[70%] md:w-[50%] p-4">
       {/* Profile Section */}
       <div className="flex flex-row gap-4 text-[40px] items-center">
         <img
